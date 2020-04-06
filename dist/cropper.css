@@ -62,10 +62,9 @@
 .cropper-view-box {
   display: block;
   height: 100%;
-  outline: 1px solid #39f;
-  outline-color: rgba(51, 153, 255, 0.75);
   overflow: hidden;
   width: 100%;
+  border-radius: 50%;
 }
 
 .cropper-dashed {
@@ -133,6 +132,7 @@
   opacity: 0.1;
   position: absolute;
   width: 100%;
+  opacity: 0;
 }
 
 .cropper-face {
